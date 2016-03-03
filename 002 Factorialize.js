@@ -1,3 +1,4 @@
+// Exercise from FreeCodeCamp.com
 function factorialize(num) {
   var facRes = 1;
   for(i = 1;i <= num; i++) {
