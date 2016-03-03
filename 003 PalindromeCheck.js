@@ -1,7 +1,7 @@
 // Exercise from FreeCodeCamp.com
 function palindrome(str) {
-  str = str.replace(/[ .,\/#!$%\^&\*;:{}=\-_`~()]/g,"")
-  str = str.toLowerCase()
+  str = str.replace(/[ .,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+  str = str.toLowerCase();
   var palCheck = str.split("").reverse().join("");
   if(str !== palCheck) {
     return false;
